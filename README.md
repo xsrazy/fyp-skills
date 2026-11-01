@@ -20,6 +20,22 @@ Each skill is a field manual: it teaches an AI agent (Claude Code, Cursor, Codex
 - AI short-drama producers who need episode structure and character consistency
 - Anyone whose AI assistant writes captions that sound like a brochure
 
+## How to use
+
+You do not need to be a developer to use this pack. There are three ways, from easiest to most complete:
+
+### 1. Paste into any AI chat (no install)
+
+Open the SKILL.md file of the skill you want, for example `skills/video-hook/SKILL.md`, copy the whole content, and paste it as the first message in ChatGPT, Claude, Gemini, or any other AI chat. Then just tell the AI what you are working on, for example "make hooks for a video reviewing a phone holder". The AI follows the skill's rules for the rest of that chat.
+
+### 2. Put it in a Claude Project
+
+If you use Claude, create a Project for your content work and paste the skill's content into the project instructions, or upload the SKILL.md file there. Every new chat inside that project then follows the skill automatically, so you never have to paste it again. This works well if you publish every day and always use the same one or two skills.
+
+### 3. Install it in your agent (Claude Code, Cursor, and others)
+
+Follow the Install section below. This is the full setup: the agent picks the right skill by itself whenever your request matches it, with no pasting at all.
+
 ## Install
 
 These skills follow the open SKILL.md format used by Anthropic's skills repository.
